@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eoyz369</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #1a1a1a;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            animation: fadeIn 2s ease-in-out;
+        }
+        .links {
+            margin-top: 1.5rem;
+        }
+        .links a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2rem;
+            margin: 0 1rem;
+            padding: 0.5rem 1rem;
+            border: 2px solid #fff;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        .links a:hover {
+            background: #fff;
+            color: #1a1a1a;
+            transform: scale(1.1);
+        }
+        .qrcode {
+            margin-top: 2rem;
+            animation: fadeIn 3s ease-in-out;
+        }
+        .qrcode img {
+            width: 150px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>欢迎来到我的个人主页</h1>
+        <div class="links">
+            <a href="https://www.bilibili.com" target="_blank">Bilibili</a>
+            <a href="https://github.com" target="_blank">Github</a>
+        </div>
+        <div class="qrcode">
+            <p>微信公众号</p>
+            <img src="./QRcoed.png" alt="微信公众号二维码">
+        </div>
+    </div>
+</body>
+</html>
